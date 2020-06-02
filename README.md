@@ -3,4 +3,12 @@
 
 ##实物图
 
+截图：
+![Alt text](https://github.com/Raymaa/Intelligent-air-monitoring-system/blob/master/ScreenShots/system.png)
+![Alt text](https://github.com/Raymaa/Intelligent-air-monitoring-system/blob/master/ScreenShots/screen.png)
+
 ##微信小程序界面
+
+截图：
+![Alt text](https://github.com/Raymaa/Intelligent-air-monitoring-system/blob/master/ScreenShots/wechat_home.png)
+![Alt text](https://github.com/Raymaa/Intelligent-air-monitoring-system/blob/master/ScreenShots/wechat_login.png)
