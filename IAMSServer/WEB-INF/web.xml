@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>IAMSServer</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>com.iams.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>uploaddataServlet</servlet-name>
+    <servlet-class>com.iams.servlet.UploadDataServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>uploaddataServlet</servlet-name>
+    <url-pattern>/UploadDataServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>readServlet</servlet-name>
+    <servlet-class>com.iams.servlet.ReadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>readServlet</servlet-name>
+    <url-pattern>/ReadServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>systemMode</servlet-name>
+    <servlet-class>com.iams.servlet.SystemMode</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>systemMode</servlet-name>
+    <url-pattern>/SystemMode</url-pattern>
+  </servlet-mapping>
+</web-app>

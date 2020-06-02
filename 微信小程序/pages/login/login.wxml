@@ -1,0 +1,21 @@
+<view class="main">
+  <view class="icon">
+    <view class="white">
+      <image class="img" src="../../image/icon01.png"></image>
+    </view>
+  </view>
+  <view class="info-input">
+    <view class="itemView">
+    <input class="username-input" name="userName" placeholder="Username" 
+    bindinput ="userNameInput"/>
+    </view>
+    <view class="itemView">
+      <input class="password-input" password placeholder="Password"
+      bindinput="passWdInput" />
+    </view>
+    <view class="viewName">
+      <button class="loginBtn" bindtap="loginBtnClick" style="width:100%">Sign in</button>
+    </view>
+  </view>
+</view>
+

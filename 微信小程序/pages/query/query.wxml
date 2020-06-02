@@ -1,0 +1,56 @@
+<!--pages/query/query.wxml-->
+<view class="main">
+  <view class="text">我的环境数据</view>
+  <view class="row1">
+    <view class="row1column1">
+      <image src="../../image/temp.png" class="tempimg"></image>
+      <view class="text">{{list.list[0].temp}}</view>
+    </view>
+    <view class="row1column2">
+      <image src="../../image/hum.png" class="humimg"></image>
+      <view class="text">{{list.list[0].hum}}</view>
+    </view>
+  </view>
+  <view class="row2">
+    <view class="row2column1">
+      <image src="../../image/smoke.png" class="smokeimg"></image>
+      <view class="text">{{list.list[0].smoke}}</view>
+    </view>
+    <view class="row2column2">
+      <image src="../../image/bright.png" class="brightimg"></image>
+      <view class="text">{{list.list[0].bright}}</view>
+    </view>
+  </view>
+  <view class="row3">
+    <view class="row3column1">
+      <image src="../../image/pm2.5.png" class="pm25img"></image>
+      <view class="text">{{list.list[0].pm2_5}}</view>
+    </view>
+    <view class="row3column2">
+      <image src="../../image/fan.png" class="fanimg"></image>
+      <view class="text">{{fantext}}</view>
+    </view>
+  </view>
+  <view class="fancontro1">
+    <view class="queryBtn0">
+      <button class="Btn0" bindtap="queryBtnClick0" style="margin-right: 5px;width: 168px;">OFF</button>
+    </view>
+    <view class="queryBtn1">
+      <button class="Btn1" bindtap="queryBtnClick1" style="margin-left: 5px;width: 168px;">1</button>
+    </view>
+  </view>
+  <view class="fancontro2">
+    <view class="queryBtn2">
+      <button class="Btn2" bindtap="queryBtnClick2" style="margin-right: 5px;width: 168px;">2</button>
+    </view>
+    <view class="queryBtn3">
+      <button class="Btn3" bindtap="queryBtnClick3" style="margin-left: 5px;width: 168px;">3</button>
+    </view>
+  </view>
+  <view class="row4">
+    <view class="row4column1" style="background-color:{{color}};">
+      <image src="../../image/warn.png" class="warnimg"></image>
+      <view class="text">{{warntext}}</view>
+    </view>
+  </view>
+</view>
