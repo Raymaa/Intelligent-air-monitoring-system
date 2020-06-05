@@ -1,14 +1,14 @@
-#ÖÇÄÜ¿ÕÆø¼à¿ØÏµÍ³
-»ùÓÚSTM32µ¥Æ¬»úºÍÎŞÏßÍøÂç¼¼ÊõÉè¼ÆºÍ¿ª·¢µÄÒ»¿îÖÇÄÜ¿ÕÆø¼à²âÏµÍ³£¬¿ÉÊµÊ±¼ì²âÊÒÄÚ¿ÕÆøÖÊÁ¿£¬ÀıÈç£ºÎÂÊª¶È£¬ÁÁ¶È£¬ÑÌÎíÅ¨¶È£¬PM2.5Å¨¶È£¬²¢ÇÒ¸ÃÏµÍ³¾ßÓĞ×Ô¶¯±¨¾¯ºÍ·çÉÈ¶àµµÎ»±äËÙ¹¦ÄÜ£¬ÓÃ»§¿ÉÍ¨¹ıÒº¾§ÏÔÊ¾ÆÁºÍÎ¢ĞÅĞ¡³ÌĞòÊµÏÖÈË»ú½»»¥¡£
+# æ™ºèƒ½ç©ºæ°”ç›‘æ§ç³»ç»Ÿ
+åŸºäºSTM32å•ç‰‡æœºå’Œæ— çº¿ç½‘ç»œæŠ€æœ¯è®¾è®¡å’Œå¼€å‘çš„ä¸€æ¬¾æ™ºèƒ½ç©ºæ°”ç›‘æµ‹ç³»ç»Ÿï¼Œå¯å®æ—¶æ£€æµ‹å®¤å†…ç©ºæ°”è´¨é‡ï¼Œä¾‹å¦‚ï¼šæ¸©æ¹¿åº¦ï¼Œäº®åº¦ï¼ŒçƒŸé›¾æµ“åº¦ï¼ŒPM2.5æµ“åº¦ï¼Œå¹¶ä¸”è¯¥ç³»ç»Ÿå…·æœ‰è‡ªåŠ¨æŠ¥è­¦å’Œé£æ‰‡å¤šæ¡£ä½å˜é€ŸåŠŸèƒ½ï¼Œç”¨æˆ·å¯é€šè¿‡æ¶²æ™¶æ˜¾ç¤ºå±å’Œå¾®ä¿¡å°ç¨‹åºå®ç°äººæœºäº¤äº’ã€‚
 
-##ÊµÎïÍ¼
+## å®ç‰©å›¾
 
-½ØÍ¼£º
+æˆªå›¾ï¼š
 ![Alt text](https://github.com/Raymaa/Intelligent-air-monitoring-system/blob/master/ScreenShots/system.png)
 ![Alt text](https://github.com/Raymaa/Intelligent-air-monitoring-system/blob/master/ScreenShots/screen.png)
 
-##Î¢ĞÅĞ¡³ÌĞò½çÃæ
+## å¾®ä¿¡å°ç¨‹åºç•Œé¢
 
-½ØÍ¼£º
+æˆªå›¾ï¼š
 ![Alt text](https://github.com/Raymaa/Intelligent-air-monitoring-system/blob/master/ScreenShots/wechat_home.png)
 ![Alt text](https://github.com/Raymaa/Intelligent-air-monitoring-system/blob/master/ScreenShots/wechat_login.png)
