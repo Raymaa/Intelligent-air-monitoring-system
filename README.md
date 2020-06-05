@@ -10,5 +10,5 @@
 ## 微信小程序界面
 
 截图：
-![Alt text](https://github.com/Raymaa/Intelligent-air-monitoring-system/blob/master/ScreenShots/wechat_home.png)
 ![Alt text](https://github.com/Raymaa/Intelligent-air-monitoring-system/blob/master/ScreenShots/wechat_login.png)
+![Alt text](https://github.com/Raymaa/Intelligent-air-monitoring-system/blob/master/ScreenShots/wechat_home.png)
